@@ -42,3 +42,13 @@ function example2() {
   console.log(i);
 }
 example2();
+
+// const varibles the value remain the same
+// if you change the value if will throw an error
+
+function example3() {
+  const i = 0;
+  // i = 1 when it will and error call typeError: Assigment to constant variable
+  console.log(i);
+}
+example2();
